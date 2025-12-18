@@ -161,20 +161,20 @@ export const Herosection = () => {
               className="relative w-[200px] sm:w-[280px] lg:w-[380px] h-[400px] sm:h-[540px] lg:h-[740px]"
             >
               <Image
-                src="/Device BG.png"
+                src="/Device BG.webg"
                 alt="Mobile device frame"
                 fill
                 className="object-contain"
                 priority
               />
               <Image
-                src="/Image placehlder 1.png"
+                src="/Image placehlder 1.webg"
                 alt="MyBindle app interface screenshot"
                 fill
                 className="object-cover rounded-3xl p-2"
               />
               <Image
-                src="/Oval.png"
+                src="/Oval.webg"
                 alt="Device camera"
                 width={14}
                 height={14}
@@ -188,7 +188,7 @@ export const Herosection = () => {
               animate={cardFloatVariants.animate}
             >
               <Image
-                src="/card.png"
+                src="/card.webg"
                 alt="Feature highlight - Seamless Connections"
                 width={170}
                 height={100}
@@ -202,7 +202,7 @@ export const Herosection = () => {
               animate={cardFloatVariantsAlt.animate}
             >
               <Image
-                src="/card (1).png"
+                src="/card (1).webg"
                 alt="Feature highlight - Discover & Explore"
                 width={170}
                 height={100}

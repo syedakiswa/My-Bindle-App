@@ -5,12 +5,12 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 const data = [
-  { name: "Emily R", country: "USA", text: "This platform changed the way I stay in touch with my friends and family. The interface is smooth, and I love how easy it is to share my moments!", img: "/prf1.png" },
-  { name: "Amit K", country: "India", text: "Finally, a social network that understands what I need! The privacy features are a game-changer.", img: "/prf2.png" },
-  { name: "Sophie M", country: "UK", text: "I joined just to explore, but now I can't imagine my day without it. The real-time chat makes every interaction special.", img: "/prf3.png" },
-  { name: "Javier L", country: "Spain", text: "Running my small business has never been easier! This platform helped me connect with customers and grow my brand.", img: "/prf4.png" },
-  { name: "Lucas T", country: "Brazil", text: "The perfect blend of fun and functionality! Everything I need is right here.", img: "/prf5.png" },
-  { name: "Nora S", country: "Canada", text: "I've tried many social platforms, but this one truly stands out. Everything just makes sense.", img: "/prf6.png" },
+  { name: "Emily R", country: "USA", text: "This platform changed the way I stay in touch with my friends and family. The interface is smooth, and I love how easy it is to share my moments!", img: "/prf1.webg" },
+  { name: "Amit K", country: "India", text: "Finally, a social network that understands what I need! The privacy features are a game-changer.", img: "/prf2.webg" },
+  { name: "Sophie M", country: "UK", text: "I joined just to explore, but now I can't imagine my day without it. The real-time chat makes every interaction special.", img: "/prf3.webg" },
+  { name: "Javier L", country: "Spain", text: "Running my small business has never been easier! This platform helped me connect with customers and grow my brand.", img: "/prf4.webg" },
+  { name: "Lucas T", country: "Brazil", text: "The perfect blend of fun and functionality! Everything I need is right here.", img: "/prf5.webg" },
+  { name: "Nora S", country: "Canada", text: "I've tried many social platforms, but this one truly stands out. Everything just makes sense.", img: "/prf6.webg" },
 ];
 
 const containerVariants = {

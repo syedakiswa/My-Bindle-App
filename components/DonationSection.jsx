@@ -147,7 +147,7 @@ export const DonationSection = () => {
                   animate="animate"
                 >
                   <Image
-                    src="/small (2).png"
+                    src="/small (2).webg"
                     alt="Payment image"
                     width={350}
                     height={220}
@@ -177,7 +177,7 @@ export const DonationSection = () => {
                   transition={{ delay: 0.5 }}
                 >
                   <Image
-                    src="/small (1).png"
+                    src="/small (1).webg"
                     alt="Donation image"
                     width={350}
                     height={224}

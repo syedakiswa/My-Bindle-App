@@ -191,7 +191,8 @@ export const Footer = () => {
                 animate="animate"
               >
                 <Image
-                  src="/Stroke Body (1).png"
+                  src="/Stroke Body (1).webg
+                  "
                   alt="App Preview"
                   width={560}
                   height={630}
@@ -221,7 +222,8 @@ export const Footer = () => {
                 transition={{ delay: 0.3 }}
               >
                 <Image
-                  src="/Stroke Body.png"
+                  src="/Stroke Body.webg
+                  "
                   alt="App Preview"
                   width={590}
                   height={590}

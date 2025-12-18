@@ -103,7 +103,7 @@ export const Appkeyfeatures = () => {
           {/* ORANGE BACKGROUND */}
           <div className="absolute  flex justify-center items-center ">
             <Image
-              src="/Ellipse 1.png"
+              src="/Ellipse 1.webg"
               alt="Orange background"
               width={420}
               height={420}
@@ -122,14 +122,14 @@ export const Appkeyfeatures = () => {
           >
             <motion.div animate={rotationVariants.animate} className="w-full h-full relative">
               <Image
-                src="/Device BG.png"
+                src="/Device BG.webg"
                 alt="Device BG"
                 fill
                 className="object-contain"
               />
 
               <motion.img
-                src="/card.png"
+                src="/card.webg"
                 alt="Left card"
                 className="absolute top-20 sm:top-28 lg:top-32 -left-2 w-[120px] sm:w-[150px] lg:w-[170px] hidden sm:block"
                 animate={floatingVariants.animate}
@@ -156,21 +156,21 @@ export const Appkeyfeatures = () => {
           >
             <motion.div animate={rotationVariants2.animate} className="w-full h-full relative">
               <Image
-                src="/Device BG.png"
+                src="/Device BG.webg"
                 alt="Device BG"
                 fill
                 className="object-contain"
               />
 
               <Image
-                src="/Mobile2.jpg"
+                src="/Mobile2.webg"
                 alt="Mobile view"
                 fill
                 className="object-cover p-0.5 rounded-2xl"
               />
 
               <motion.img
-                src="/volumeup.png"
+                src="/volumeup.webg"
                 alt="Volume Button"
                 className="absolute top-32 left-0 w-[3px] hidden lg:block"
                 animate={{ y: [0, -5, 0] }}
@@ -178,7 +178,7 @@ export const Appkeyfeatures = () => {
               />
 
               <motion.img
-                src="/powerbtn.png"
+                src="/powerbtn.webg"
                 alt="Power Button"
                 className="absolute top-48 right-0 w-[3px] hidden lg:block"
                 animate={{ y: [0, 5, 0] }}
