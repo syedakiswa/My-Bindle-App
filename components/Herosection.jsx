@@ -165,17 +165,17 @@ export const Herosection = () => {
               animate={phoneRotateVariants.animate}
               className="relative w-[200px] sm:w-[280px] lg:w-[380px] h-[400px] sm:h-[540px] lg:h-[740px]"
             >
-             <Image
-  src="/device-bg.webp"
-  alt="Mobile device frame"
-  fill
-  className="object-cover"
-  priority
-/>
+              <Image
+                src="/Device-bg.webp"
+                alt="Mobile device frame"
+                fill
+                className="object-contain"
+                priority
+              />
 
               {/* Screen Content */}
               <Image
-                src="/image-placehlder-1.webp"
+                src="/Image-placehlder-1.webp"
                 alt="MyBindle app interface screenshot"
                 fill
                 className="object-cover rounded-3xl p-2"
@@ -183,31 +183,30 @@ export const Herosection = () => {
               
               {/* Camera Notch */}
               <Image
-                src="/oval.webp"
+                src="/Oval.webp"
                 alt="Device camera notch"
                 width={14}
                 height={14}
                 className="absolute bg-black rounded-full top-3 left-1/2 -translate-x-1/2 z-20"
               />
 
-         <Image
-  src="/volume.webp"
-  alt="Volume button"
-  width={8}
-  height={48}
-  className="absolute top-[28%] right-[-6px] z-30 hidden lg:block"
-/>
-
+              {/* Volume Button - Right Side */}
+              <Image
+                src="/volume.webp"
+                alt="Volume button"
+                width={8}
+                height={48}
+                className="absolute top-24 sm:top-32 lg:top-40 -right-3 sm:-right-2 lg:-right-1 hidden lg:block z-30"
+              />
 
               {/* Power Button - Right Side */}
-           <Image
-  src="/powerbtn.webp"
-  alt="Power button"
-  width={8}
-  height={40}
-  className="absolute top-[55%] right-[-6px] z-30 hidden lg:block"
-/>
-
+              <Image
+                src="/powerbtn.webp"
+                alt="Power button"
+                width={8}
+                height={40}
+                className="absolute top-52 sm:top-64 lg:top-80 -right-3 sm:-right-2 lg:-right-1 hidden lg:block z-30"
+              />
             </motion.div>
 
             {/* Floating Card - Left Top */}
