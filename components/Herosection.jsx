@@ -153,78 +153,83 @@ export const Herosection = () => {
           </motion.header>
 
           {/* Image Section */}
+{/* Image Section */}
 <motion.div
   variants={imageVariants}
   initial="hidden"
   animate="visible"
-  className="relative -mt-10 hidden lg:flex lg:w-[380px] lg:h-[550px] items-center justify-center"
+  className="relative hidden lg:flex lg:justify-center lg:items-center lg:w-full"
 >
+  {/* Phone Wrapper */}
+  <motion.div
+    animate={phoneRotateVariants.animate}
+    className="relative w-[300px] h-[600px]"
+  >
+    {/* Phone Frame */}
+    <Image
+      src="/Device-bg.webp"
+      alt="Mobile device frame"
+      fill
+      className="object-contain "
+      priority
+    />
 
-
-            {/* Main Phone Device */}
-          <motion.div
-  animate={phoneRotateVariants.animate}
-  className="relative w-[150px] sm:w-[280px] lg:w-[300px] h-[300px] sm:h-[500px] lg:h-[600px]"
->
-
-              <Image
-                src="/Device-bg.webp"
-                alt="Mobile device frame"
-                fill
-                className="object-contain"
-                priority
-              />
-
-             {/* Screen Content */}
-<div className="absolute inset-0 flex items-center justify-center px-2">
+    {/* Screen */}
+<div className="absolute top-[14px] left-[10px] right-[13px] bottom-[13px] rounded-[10px] overflow-hidden z-0">
   <Image
     src="/Image-placehlder-1.webp"
     alt="MyBindle app interface"
     fill
-    className="object-cover rounded-2xl p-[6px]"
+    className="object-cover"
+    priority
   />
 </div>
 
-              {/* Camera Notch */}
-              <Image
-                src="/Oval.webp"
-                alt="Device camera notch"
-                width={14}
-                height={14}
-                className="absolute bg-black rounded-full top-3 left-1/2 -translate-x-1/2 z-20"
-              />
+
+    {/* Camera Notch */}
+    <Image
+      src="/Oval.webp"
+      alt="Camera notch"
+      width={14}
+      height={14}
+      className="absolute bg-black rounded-full top-[16px] left-1/2 -translate-x-1/2 z-20"
+    />
 
 
-            </motion.div>
+    <div className="absolute left-[-3px] top-[28%] w-[4px] h-[55px] bg-black rounded-full"></div>
+    <div className="absolute left-[-3px] top-[38%] w-[4px] h-[45px] bg-black rounded-full"></div>
 
-            {/* Floating Card - Left Top */}
-            <motion.div
-              className="absolute top-12 sm:top-16 lg:top-20 -left-8 sm:-left-12 lg:-left-16 z-10"
-              animate={cardFloatVariants.animate}
-            >
-              <Image
-                src="/card.webp"
-                alt="Feature highlight - Seamless Connections"
-                width={170}
-                height={100}
-                className="w-[140px] sm:w-[160px] lg:w-[190px] drop-shadow-lg"
-              />
-            </motion.div>
+    <div className="absolute right-[-3px] top-[34%] w-[5px] h-[55px] bg-black rounded-full"></div>
+  </motion.div>
 
-            {/* Floating Card - Right Bottom */}
-            <motion.div
-              className="absolute bottom-16 sm:bottom-20 lg:bottom-24 -right-8 sm:-right-12 lg:-right-16 z-10"
-              animate={cardFloatVariantsAlt.animate}
-            >
-              <Image
-                src="/card1.webp"
-                alt="Feature highlight - Discover & Explore"
-                width={170}
-                height={100}
-                className="w-[140px] sm:w-[160px] lg:w-[190px] drop-shadow-lg"
-              />
-            </motion.div>
-          </motion.div>
+  {/* Floating Card – Left */}
+  <motion.div
+    animate={cardFloatVariants.animate}
+    className="absolute left-[5%] top-[18%] z-20"
+  >
+    <Image
+      src="/card.webp"
+      alt="Feature card"
+      width={180}
+      height={120}
+      className="rounded-2xl shadow-xl"
+    />
+  </motion.div>
+
+  {/* Floating Card – Right */}
+  <motion.div
+    animate={cardFloatVariantsAlt.animate}
+    className="absolute right-[5%] bottom-[18%] z-20"
+  >
+    <Image
+      src="/card1.webp"
+      alt="Feature card"
+      width={180}
+      height={120}
+      className="rounded-2xl shadow-xl"
+    />
+  </motion.div>
+</motion.div>
 
         </div>
       </div>
