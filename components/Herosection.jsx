@@ -175,7 +175,7 @@ export const Herosection = () => {
     />
 
     {/* Screen */}
-<div className="absolute top-[14px] left-[10px] right-[13px] bottom-[13px] rounded-[10px] overflow-hidden z-0">
+<div className="absolute top-[12px] left-[8px] right-[10px] bottom-[10px] rounded-[10px] overflow-hidden z-0">
   <Image
     src="/Image-placehlder-1.webp"
     alt="MyBindle app interface"
@@ -196,8 +196,8 @@ export const Herosection = () => {
     />
 
 
-    <div className="absolute left-[-3px] top-[28%] w-[4px] h-[55px] bg-black rounded-full"></div>
-    <div className="absolute left-[-3px] top-[38%] w-[4px] h-[45px] bg-black rounded-full"></div>
+    <div className="absolute left-[-2px] top-[28%] w-[4px] h-[55px] bg-black rounded-full"></div>
+    <div className="absolute left-[-2px] top-[38%] w-[4px] h-[45px] bg-black rounded-full"></div>
 
     <div className="absolute right-[-3px] top-[34%] w-[5px] h-[55px] bg-black rounded-full"></div>
   </motion.div>
