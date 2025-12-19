@@ -161,13 +161,16 @@ export const Herosection = () => {
             aria-label="MyBindle app preview on mobile device"
           >
             {/* Main Phone Device */}
-          <motion.div
-  variants={imageVariants}
-  initial="hidden"
-  animate="visible"
-  className="relative w-full h-[350px] sm:h-[450px] lg:h-[700px] hidden sm:flex items-center justify-center"
-  aria-label="MyBindle app preview on mobile device"
->
+            <motion.div
+              animate={phoneRotateVariants.animate}
+              className="relative w-[200px] sm:w-[280px] lg:w-[380px] h-[400px] sm:h-[540px] lg:h-[740px]"
+            ><Image
+  src="/device-bg.webp"
+  alt="Mobile device frame"
+  fill
+  className="object-cover"
+  priority
+/>
 
               <Image
                 src="/Device-bg.webp"
