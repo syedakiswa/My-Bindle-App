@@ -153,13 +153,13 @@ export const Herosection = () => {
           </motion.header>
 
           {/* Image Section */}
-       <motion.div
+    <motion.div
   variants={imageVariants}
   initial="hidden"
   animate="visible"
-  className="relative mt-20 w-full h-[300px] sm:h-[400px] lg:h-[550px] hidden sm:flex items-center justify-center"
-  aria-label="MyBindle app preview on mobile device"
+  className="relative mt-20 hidden sm:flex lg:w-[380px] lg:h-[550px] items-center justify-center"
 >
+
 
             {/* Main Phone Device */}
           <motion.div
@@ -178,8 +178,8 @@ export const Herosection = () => {
               {/* Screen Content */}
               <Image
                 src="/Image-placehlder-1.webp"
-                alt="MyBindle app interface screenshot"
-                fill
+                alt="MyBindle app interface "
+                fill 
                 className="object-cover rounded-3xl p-2"
               />
               
