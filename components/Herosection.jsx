@@ -153,18 +153,20 @@ export const Herosection = () => {
           </motion.header>
 
           {/* Image Section */}
-          <motion.div
-            variants={imageVariants}
-            initial="hidden"
-            animate="visible"
-            className="relative mt-20 w-full h-[350px] sm:h-[450px] lg:h-[600px] hidden sm:flex items-center justify-center"
-            aria-label="MyBindle app preview on mobile device"
-          >
+       <motion.div
+  variants={imageVariants}
+  initial="hidden"
+  animate="visible"
+  className="relative mt-20 w-full h-[300px] sm:h-[400px] lg:h-[550px] hidden sm:flex items-center justify-center"
+  aria-label="MyBindle app preview on mobile device"
+>
+
             {/* Main Phone Device */}
-            <motion.div
-              animate={phoneRotateVariants.animate}
-              className="relative w-[200px] sm:w-[280px] lg:w-[380px] h-[400px] sm:h-[540px] lg:h-[740px]"
-            >
+          <motion.div
+  animate={phoneRotateVariants.animate}
+  className="relative w-[150px] sm:w-[280px] lg:w-[380px] h-[300px] sm:h-[500px] lg:h-[600px]"
+>
+
               <Image
                 src="/Device-bg.webp"
                 alt="Mobile device frame"
