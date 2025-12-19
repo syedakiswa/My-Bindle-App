@@ -153,7 +153,7 @@ export const Herosection = () => {
           </motion.header>
 
           {/* Image Section */}
-          <motion.div
+    <motion.div
             variants={imageVariants}
             initial="hidden"
             animate="visible"
