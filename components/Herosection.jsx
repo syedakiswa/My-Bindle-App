@@ -165,20 +165,12 @@ export const Herosection = () => {
               animate={phoneRotateVariants.animate}
               className="relative w-[200px] sm:w-[280px] lg:w-[380px] h-[400px] sm:h-[540px] lg:h-[740px]"
             ><Image
-  src="/device-bg.webp"
+  src="/Device-bg.webp"
   alt="Mobile device frame"
   fill
   className="object-cover"
   priority
 />
-
-              <Image
-                src="/Device-bg.webp"
-                alt="Mobile device frame"
-                fill
-                className="object-contain"
-                priority
-              />
 
               {/* Screen Content */}
               <Image
