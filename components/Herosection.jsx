@@ -190,23 +190,11 @@ export const Herosection = () => {
                 className="absolute bg-black rounded-full top-3 left-1/2 -translate-x-1/2 z-20"
               />
 
-              {/* Volume Button - Right Side */}
-              <Image
-                src="/volume.webp"
-                alt="Volume button"
-                width={8}
-                height={48}
-                className="absolute top-24 sm:top-32 lg:top-40 -right-3 sm:-right-2 lg:-right-1 hidden lg:block z-30"
-              />
+                 <Image width={8} height={20} className="absolute  top-24 -left-1 w-[5px] h-[20px] rounded-xl" src="/image.png" alt="Power Button" />
+           <Image width={8} height={20} className="absolute  top-36 -left-1 w-[5px] h-[30px]" src="/image.png" alt="Power Button" />
+<Image width={8} height={2} className="absolute  top-44 -left-1 w-[5px] h-[30px]" src="/image.png" alt="Speaker Button" />
+ <Image width={8} height={20} className="absolute  top-40 -right-1 w-[5px] h-[40px]" src="/image.png" alt="Power Button" />
 
-              {/* Power Button - Right Side */}
-              <Image
-                src="/powerbtn.webp"
-                alt="Power button"
-                width={8}
-                height={40}
-                className="absolute top-52 sm:top-64 lg:top-80 -right-3 sm:-right-2 lg:-right-1 hidden lg:block z-30"
-              />
             </motion.div>
 
             {/* Floating Card - Left Top */}
