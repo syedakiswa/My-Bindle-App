@@ -194,35 +194,6 @@ export const Herosection = () => {
                 className="absolute bg-black rounded-full top-3 left-1/2 -translate-x-1/2 z-20"
               />
 
-{/* Volume Button */}
-<motion.div
-  variants={volumeButtonVariants}
-  animate="animate"
-  className="absolute top-28 sm:top-36 lg:top-44 -right-[6px] z-30"
->
-  <Image
-    src="/volume.webp"
-    alt="Volume button"
-    width={6}
-    height={52}
-    className="hidden lg:block"
-  />
-</motion.div>
-
-{/* Power Button */}
-<motion.div
-  variants={powerButtonVariants}
-  animate="animate"
-  className="absolute top-52 sm:top-64 lg:top-80 -right-[6px] z-30"
->
-  <Image
-    src="/powerbtn.webp"
-    alt="Power button"
-    width={6}
-    height={44}
-    className="hidden lg:block"
-  />
-</motion.div>
 
             </motion.div>
 
