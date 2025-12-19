@@ -166,7 +166,7 @@ export const Herosection = () => {
               className="relative w-[200px] sm:w-[280px] lg:w-[380px] h-[400px] sm:h-[540px] lg:h-[740px]"
             >
               <Image
-                src="/device-bg.webp"
+                src="/Device-bg.webp"
                 alt="Mobile device frame"
                 fill
                 className="object-contain"
@@ -175,7 +175,7 @@ export const Herosection = () => {
 
               {/* Screen Content */}
               <Image
-                src="/image-placehlder-1.webp"
+                src="/Image-placehlder-1.webp"
                 alt="MyBindle app interface screenshot"
                 fill
                 className="object-cover rounded-3xl p-2"
@@ -183,7 +183,7 @@ export const Herosection = () => {
               
               {/* Camera Notch */}
               <Image
-                src="/oval.webp"
+                src="/Oval.webp"
                 alt="Device camera notch"
                 width={14}
                 height={14}
