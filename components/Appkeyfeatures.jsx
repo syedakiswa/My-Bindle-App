@@ -119,7 +119,7 @@ export const Appkeyfeatures = () => {
           {/* ORANGE BACKGROUND */}
           <div className="absolute  flex justify-center items-center ">
             <Image
-              src="/ellipse-1.webp"
+              src="/Ellipse-1.webp"
               alt="Orange background"
               width={420}
               height={420}
@@ -138,7 +138,7 @@ export const Appkeyfeatures = () => {
           >
             <motion.div animate={rotationVariants.animate} className="w-full h-full relative">
               <Image
-                src="/device-bg.webp"
+                src="/Device-bg.webp"
                 alt="Device BG"
                 fill
                 className="object-contain"
@@ -146,18 +146,18 @@ export const Appkeyfeatures = () => {
 
              
 
-        <Image
-          src="/mobile.webp"
-          alt="Mobile view"
-          fill
-          className="object-cover p-0.5 rounded-2xl"
-        />
+              <Image
+                src="/Mobile.webp"
+                alt="Mobile view"
+                fill
+                className="object-cover p-0.5 rounded-2xl"
+              />
                <Image
-         src="/oval.webp"
-         alt="Device camera"
-         width={14}
-         height={14}
-         className="absolute bg-black rounded-full top-2 left-1/2 -translate-x-1/2 z-20"
+                              src="/Oval.webp"
+                              alt="Device camera"
+                              width={14}
+                              height={14}
+                              className="absolute bg-black rounded-full top-2 left-1/2 -translate-x-1/2 z-20"
                             />
                    {/* Left buttons */}
 <div className="absolute left-[-2px] top-[28%] w-[4px] h-[14%] bg-black rounded-full"></div>
@@ -182,20 +182,20 @@ export const Appkeyfeatures = () => {
           >
             <motion.div animate={rotationVariants2.animate} className="w-full h-full relative">
               <Image
-                src="/device-bg.webp"
+                src="/Device-bg.webp"
                 alt="Device BG"
                 fill
                 className="object-contain"
               />
 
               <Image
-                src="/mobile2.webp"
+                src="/Mobile2.webp"
                 alt="Mobile view"
                 fill
                 className="object-cover p-[2px] rounded-2xl"
               />
    <Image
-                              src="/oval.webp"
+                              src="/Oval.webp"
                               alt="Device camera"
                               width={14}
                               height={14}
