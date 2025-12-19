@@ -1,5 +1,4 @@
-"use client";
-
+'use client'
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -179,7 +178,7 @@ export const Herosection = () => {
                 src="/Image placehlder 1.webp"
                 alt="MyBindle app interface screenshot"
                 fill
-                className="object-cover rounded-4xl p-2"
+                className="object-cover rounded-3xl p-2"
               />
               
               {/* Camera Notch */}
@@ -191,9 +190,23 @@ export const Herosection = () => {
                 className="absolute bg-black rounded-full top-3 left-1/2 -translate-x-1/2 z-20"
               />
 
-              <div className="absolute top-32 left-0.5 w-[4px] h-[65px] bg-black rounded-full"></div>
-    <div className="absolute top-52 left-0.5 w-[4px] h-[60px] bg-black rounded-full"></div>
-          <div className="absolute top-40 right-[4px] w-[5px] h-[50px] bg-black rounded-full"></div>
+              {/* Volume Button - Right Side */}
+              <Image
+                src="/volume.webp"
+                alt="Volume button"
+                width={8}
+                height={48}
+                className="absolute top-24 sm:top-32 lg:top-40 -right-3 sm:-right-2 lg:-right-1 hidden lg:block z-30"
+              />
+
+              {/* Power Button - Right Side */}
+              <Image
+                src="/powerbtn.webp"
+                alt="Power button"
+                width={8}
+                height={40}
+                className="absolute top-52 sm:top-64 lg:top-80 -right-3 sm:-right-2 lg:-right-1 hidden lg:block z-30"
+              />
             </motion.div>
 
             {/* Floating Card - Left Top */}

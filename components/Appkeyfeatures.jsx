@@ -152,7 +152,7 @@ export const Appkeyfeatures = () => {
               />
 
               <Image
-                src="/Mobile.jpg"
+                src="/Mobile.webp"
                 alt="Mobile view"
                 fill
                 className="object-cover p-0.5 rounded-2xl"
@@ -164,9 +164,14 @@ export const Appkeyfeatures = () => {
                               height={14}
                               className="absolute bg-black rounded-full top-2 left-1/2 -translate-x-1/2 z-20"
                             />
-                             <div className="absolute top-28 -left-[2px] w-[4px] h-[65px] bg-black rounded-full"></div>
-    <div className="absolute top-48 -left-[2px] w-[4px] h-[60px] bg-black rounded-full"></div>
-          <div className="absolute top-40 -right-[3px] w-[5px] h-[50px] bg-black rounded-full"></div>
+                   {/* Left buttons */}
+<div className="absolute left-[-2px] top-[28%] w-[4px] h-[14%] bg-black rounded-full"></div>
+<div className="absolute left-[-2px] top-[46%] w-[4px] h-[12%] bg-black rounded-full"></div>
+
+{/* Right button */}
+<div className="absolute right-[-3px] top-[36%] w-[5px] h-[12%] bg-black rounded-full"></div>
+
+
             </motion.div>
           </motion.div>
 
@@ -201,9 +206,13 @@ export const Appkeyfeatures = () => {
                               height={14}
                               className="absolute bg-black rounded-full top-2 left-1/2 -translate-x-1/2 z-20"
                             />
-                              <div className="absolute top-28 -left-[2px] w-[4px] h-[65px] bg-black rounded-full"></div>
-    <div className="absolute top-48 -left-[2px] w-[4px] h-[60px] bg-black rounded-full"></div>
-          <div className="absolute top-40 -right-[3px] w-[5px] h-[50px] bg-black rounded-full"></div>
+                                      {/* Left buttons */}
+<div className="absolute left-[-2px] top-[28%] w-[4px] h-[14%] bg-black rounded-full"></div>
+<div className="absolute left-[-2px] top-[46%] w-[4px] h-[12%] bg-black rounded-full"></div>
+
+{/* Right button */}
+<div className="absolute right-[-3px] top-[36%] w-[5px] h-[12%] bg-black rounded-full"></div>
+
                             
             </motion.div>
           </motion.div>
