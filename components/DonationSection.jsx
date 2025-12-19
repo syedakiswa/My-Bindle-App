@@ -62,21 +62,6 @@ export const DonationSection = () => {
     },
   };
 
-   // Volume button floating animation
-  const volumeButtonVariants = {
-    animate: {
-      y: [0, -5, 0],
-      transition: { duration: 3, repeat: Infinity, ease: "easeInOut" },
-    },
-  };
-
-  // Power button floating animation
-  const powerButtonVariants = {
-    animate: {
-      y: [0, 5, 0],
-      transition: { duration: 3.2, repeat: Infinity, ease: "easeInOut" },
-    },
-  };
   return (
     <section className="py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
@@ -155,7 +140,7 @@ export const DonationSection = () => {
   >
     {/* Mobile Image */}
     <Image
-      src="/small (2).webp"
+      src="/small2.webp"
       alt="Payment image"
       width={350}
       height={220}
@@ -168,9 +153,7 @@ export const DonationSection = () => {
            <Image width={8} height={20} className="absolute  top-36 -left-1 w-[5px] h-[30px]" src="/image.png" alt="Power Button" />
 <Image width={8} height={2} className="absolute  top-44 -left-1 w-[5px] h-[30px]" src="/image.png" alt="Speaker Button" />
  <Image width={8} height={20} className="absolute  top-40 -right-1 w-[5px] h-[40px]" src="/image.png" alt="Power Button" />
-       {/* <div className="absolute top-32 -left-1 w-[4px] h-[65px] bg-black rounded-full"></div>
-    <div className="absolute top-52 -left-1 w-[4px] h-[60px] bg-black rounded-full"></div> */}
-          {/* <div className="absolute top-40 -right-1 w-[5px] h-[50px] bg-black rounded-full"></div> */}
+
   </motion.div>
 
   {/* IMAGE 2 */}
@@ -189,7 +172,7 @@ export const DonationSection = () => {
   >
     {/* Mobile Image */}
     <Image
-      src="/small (1).webp"
+      src="/small1.webp"
       alt="Donation image"
       width={350}
       height={224}

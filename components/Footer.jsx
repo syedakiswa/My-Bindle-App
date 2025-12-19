@@ -187,7 +187,7 @@ export const Footer = () => {
   >
     <motion.div variants={floatingVariants}>
       <Image
-        src="/Stroke Body (1).webp"
+        src="/strokebody1.webp"
         alt="App Preview"
         width={560}
         height={630}
@@ -218,7 +218,7 @@ export const Footer = () => {
     }}
   >
     <Image
-      src="/Stroke Body.webp"
+      src="/strokebody.webp"
       alt="App Preview"
       width={590}
       height={590}
