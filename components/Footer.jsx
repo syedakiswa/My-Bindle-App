@@ -166,7 +166,7 @@ export const Footer = () => {
 
           {/* RIGHT : Images */}
           <motion.div
-            className="hidden lg:flex items-end gap-6 w-1/2 h-[650px] sticky bottom-0"
+            className="hidden lg:flex mt-2 items-end gap-6 w-1/2 h-[650px] sticky bottom-0"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
@@ -174,7 +174,7 @@ export const Footer = () => {
           >
             {/* Image 1 */}
             <motion.div
-              className="w-[280px] lg:w-[600px]"
+              className="w-[280px] lg:w-[600px] relative"
               variants={imageVariants}
               initial="hidden"
               whileInView="visible"
@@ -187,23 +187,29 @@ export const Footer = () => {
             >
               <motion.div
                 variants={floatingVariants}
-                initial="initial"
-                animate="animate"
+             
               >
                 <Image
-                  src="/Stroke Body (1).webg
-                  "
+                  src="/Stroke Body (1).webp"
                   alt="App Preview"
                   width={560}
                   height={630}
-                  className="object-contain drop-shadow-2xl"
+                  className="object-contain  drop-shadow-2xl"
                 />
+                <Image
+                                   src="/Oval.webp"
+                                   alt="Device camera"
+                                   width={14}
+                                   height={14}
+                                   className="absolute bg-black rounded-full top-2 left-1/2 -translate-x-1/2 "
+                                 />
+    
               </motion.div>
             </motion.div>
 
             {/* Image 2 */}
             <motion.div
-              className="w-[280px] lg:w-[600px]"
+              className="w-[280px] lg:w-[600px] relative"
               variants={imageVariants}
               initial="hidden"
               whileInView="visible"
@@ -215,23 +221,25 @@ export const Footer = () => {
                 transition: { duration: 0.3 },
               }}
             >
-              <motion.div
-                variants={floatingVariants}
-                initial="initial"
-                animate="animate"
-                transition={{ delay: 0.3 }}
-              >
+             
                 <Image
-                  src="/Stroke Body.webg
-                  "
+                  src="/Stroke Body.webp"
                   alt="App Preview"
                   width={590}
                   height={590}
                   className="object-contain drop-shadow-2xl"
-                />
-              </motion.div>
+                  
+                />    <Image
+                                   src="/Oval.webp"
+                                   alt="Device camera"
+                                   width={14}
+                                   height={14}
+                                   className="absolute bg-black rounded-full top-2 left-1/2 -translate-x-1/2 "
+                                 />
+    
             </motion.div>
           </motion.div>
+          
 
         </div>
       </div>

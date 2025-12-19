@@ -141,19 +141,15 @@ export const DonationSection = () => {
                   transition: { duration: 0.3 },
                 }}
               >
-                <motion.div
-                  variants={floatingVariants}
-                  initial="initial"
-                  animate="animate"
-                >
+             
                   <Image
-                    src="/small (2).webg"
+                    src="/small (2).webp"
                     alt="Payment image"
                     width={350}
                     height={220}
                     className="object-contain drop-shadow-lg"
                   />
-                </motion.div>
+         
               </motion.div>
 
               {/* Image 2 */}
@@ -170,20 +166,15 @@ export const DonationSection = () => {
                   transition: { duration: 0.3 },
                 }}
               >
-                <motion.div
-                  variants={floatingVariants}
-                  initial="initial"
-                  animate="animate"
-                  transition={{ delay: 0.5 }}
-                >
+           
                   <Image
-                    src="/small (1).webg"
+                    src="/small (1).webp"
                     alt="Donation image"
                     width={350}
                     height={224}
                     className="object-contain drop-shadow-lg"
                   />
-                </motion.div>
+       
               </motion.div>
 
             </motion.div>

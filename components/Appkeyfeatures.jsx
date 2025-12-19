@@ -103,7 +103,7 @@ export const Appkeyfeatures = () => {
           {/* ORANGE BACKGROUND */}
           <div className="absolute  flex justify-center items-center ">
             <Image
-              src="/Ellipse 1.webg"
+              src="/Ellipse 1.webp"
               alt="Orange background"
               width={420}
               height={420}
@@ -122,14 +122,14 @@ export const Appkeyfeatures = () => {
           >
             <motion.div animate={rotationVariants.animate} className="w-full h-full relative">
               <Image
-                src="/Device BG.webg"
+                src="/Device BG.webp"
                 alt="Device BG"
                 fill
                 className="object-contain"
               />
 
               <motion.img
-                src="/card.webg"
+                src="/card.webp"
                 alt="Left card"
                 className="absolute top-20 sm:top-28 lg:top-32 -left-2 w-[120px] sm:w-[150px] lg:w-[170px] hidden sm:block"
                 animate={floatingVariants.animate}
@@ -141,6 +141,13 @@ export const Appkeyfeatures = () => {
                 fill
                 className="object-cover p-0.5 rounded-2xl"
               />
+               <Image
+                              src="/Oval.webp"
+                              alt="Device camera"
+                              width={14}
+                              height={14}
+                              className="absolute bg-black rounded-full top-2 left-1/2 -translate-x-1/2 z-20"
+                            />
             </motion.div>
           </motion.div>
 
@@ -156,34 +163,26 @@ export const Appkeyfeatures = () => {
           >
             <motion.div animate={rotationVariants2.animate} className="w-full h-full relative">
               <Image
-                src="/Device BG.webg"
+                src="/Device BG.webp"
                 alt="Device BG"
                 fill
                 className="object-contain"
               />
 
               <Image
-                src="/Mobile2.webg"
+                src="/Mobile2.webp"
                 alt="Mobile view"
                 fill
                 className="object-cover p-0.5 rounded-2xl"
               />
-
-              <motion.img
-                src="/volumeup.webg"
-                alt="Volume Button"
-                className="absolute top-32 left-0 w-[3px] hidden lg:block"
-                animate={{ y: [0, -5, 0] }}
-                transition={{ duration: 3, repeat: Infinity }}
-              />
-
-              <motion.img
-                src="/powerbtn.webg"
-                alt="Power Button"
-                className="absolute top-48 right-0 w-[3px] hidden lg:block"
-                animate={{ y: [0, 5, 0] }}
-                transition={{ duration: 3.2, repeat: Infinity }}
-              />
+   <Image
+                              src="/Oval.webp"
+                              alt="Device camera"
+                              width={14}
+                              height={14}
+                              className="absolute bg-black rounded-full top-2 left-1/2 -translate-x-1/2 z-20"
+                            />
+             
             </motion.div>
           </motion.div>
 

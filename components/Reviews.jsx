@@ -5,12 +5,12 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 const data = [
-  { name: "Emily R", country: "USA", text: "This platform changed the way I stay in touch with my friends and family. The interface is smooth, and I love how easy it is to share my moments!", img: "/prf1.webg" },
-  { name: "Amit K", country: "India", text: "Finally, a social network that understands what I need! The privacy features are a game-changer.", img: "/prf2.webg" },
-  { name: "Sophie M", country: "UK", text: "I joined just to explore, but now I can't imagine my day without it. The real-time chat makes every interaction special.", img: "/prf3.webg" },
-  { name: "Javier L", country: "Spain", text: "Running my small business has never been easier! This platform helped me connect with customers and grow my brand.", img: "/prf4.webg" },
-  { name: "Lucas T", country: "Brazil", text: "The perfect blend of fun and functionality! Everything I need is right here.", img: "/prf5.webg" },
-  { name: "Nora S", country: "Canada", text: "I've tried many social platforms, but this one truly stands out. Everything just makes sense.", img: "/prf6.webg" },
+  { name: "Emily R", country: "USA", text: "This platform changed the way I stay in touch with my friends and family. The interface is smooth, and I love how easy it is to share my moments!", img: "/prf1.webp" },
+  { name: "Amit K", country: "India", text: "Finally, a social network that understands what I need! The privacy features are a game-changer.", img: "/prf2.webp" },
+  { name: "Sophie M", country: "UK", text: "I joined just to explore, but now I can't imagine my day without it. The real-time chat makes every interaction special.", img: "/prf3.webp" },
+  { name: "Javier L", country: "Spain", text: "Running my small business has never been easier! This platform helped me connect with customers and grow my brand.", img: "/prf4.webp" },
+  { name: "Lucas T", country: "Brazil", text: "The perfect blend of fun and functionality! Everything I need is right here.", img: "/prf5.webp" },
+  { name: "Nora S", country: "Canada", text: "I've tried many social platforms, but this one truly stands out. Everything just makes sense.", img: "/prf6.webp" },
 ];
 
 const containerVariants = {
@@ -65,7 +65,7 @@ export const Reviews = () => {
           What Our Users Say
         </motion.h2>
 
-        {/* DESKTOP GRID */}
+      
         <motion.div
           className="hidden md:grid grid-cols-2 lg:grid-cols-3 gap-8"
           variants={containerVariants}
@@ -78,7 +78,7 @@ export const Reviews = () => {
               key={index}
               variants={cardVariants}
               whileHover={hoverVariants.hover}
-              className="bg-white rounded-2xl p-6 shadow-md cursor-pointer group"
+              className="bg-white rounded-2xl p-6 shadow-md border-1 border-white cursor-pointer group"
             >
               {/* Stars */}
               <motion.p
