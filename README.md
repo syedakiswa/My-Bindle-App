@@ -40,3 +40,11 @@ git init
 - Dark/Light mode toggle – currently only **light mode** is applied
 - Schema markup for advanced SEO (bonus)
 - Unit tests for components (Jest / React Testing Library)
+
+---
+
+
+## Lighthouse analyzed
+
+<img width="1082" height="475" alt="image" src="https://github.com/user-attachments/assets/cecfd57b-4d89-4e7b-9ae3-9335d6dfbaee" />
+
