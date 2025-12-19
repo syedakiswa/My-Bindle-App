@@ -163,7 +163,7 @@ export const Herosection = () => {
             {/* Main Phone Device */}
             <motion.div
               animate={phoneRotateVariants.animate}
-              className="relative w-[200px] sm:w-[280px] lg:w-[330px] h-[400px] sm:h-[540px] lg:h-[600px]"
+              className="relative w-[200px] sm:w-[280px] lg:w-[300px] h-[400px] sm:h-[540px] lg:h-[550px]"
             >
               <Image
                 src="/Device-bg.webp"
