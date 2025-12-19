@@ -153,11 +153,11 @@ export const Herosection = () => {
           </motion.header>
 
           {/* Image Section */}
-    <motion.div
+<motion.div
   variants={imageVariants}
   initial="hidden"
   animate="visible"
-  className="relative mt-10 hidden sm:flex lg:w-[380px] lg:h-[550px] items-center justify-center"
+  className="relative -mt-10 hidden lg:flex lg:w-[380px] lg:h-[550px] items-center justify-center"
 >
 
 
