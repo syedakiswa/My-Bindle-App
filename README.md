@@ -1,6 +1,6 @@
 # MyBindle – Social Platform
+git init
 
-A modern social platform where friendships grow and communities connect. Built with Next.js, Tailwind CSS, and Framer Motion for animations.
 
 ---
 
