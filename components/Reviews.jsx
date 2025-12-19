@@ -78,7 +78,9 @@ export const Reviews = () => {
               key={index}
               variants={cardVariants}
               whileHover={hoverVariants.hover}
-              className="bg-white rounded-2xl p-6 shadow-md border-1 border-white cursor-pointer group"
+              className="bg-white rounded-2xl p-6 cursor-pointer group
+border border-white/50 shadow-[0_0_0_1px_rgba(255,255,255,0.6),0_20px_40px_rgba(0,0,0,0.12)]"
+
             >
               {/* Stars */}
               <motion.p

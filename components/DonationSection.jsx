@@ -62,6 +62,21 @@ export const DonationSection = () => {
     },
   };
 
+   // Volume button floating animation
+  const volumeButtonVariants = {
+    animate: {
+      y: [0, -5, 0],
+      transition: { duration: 3, repeat: Infinity, ease: "easeInOut" },
+    },
+  };
+
+  // Power button floating animation
+  const powerButtonVariants = {
+    animate: {
+      y: [0, 5, 0],
+      transition: { duration: 3.2, repeat: Infinity, ease: "easeInOut" },
+    },
+  };
   return (
     <section className="py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
@@ -118,66 +133,79 @@ export const DonationSection = () => {
                 </motion.button>
               </motion.div>
             </motion.div>
+<motion.div
+  className="hidden lg:flex mt-44 justify-start items-end gap-10 relative right-8"
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ duration: 0.6 }}
+  viewport={{ once: true, amount: 0.3 }}
+>
+  {/* IMAGE 1 */}
+  <motion.div
+    className="w-[350px] relative"
+    variants={imageVariants}
+    initial="hidden"
+    whileInView="visible"
+    viewport={{ once: true }}
+    whileHover={{
+      scale: 1.08,
+      rotate: -5,
+      transition: { duration: 0.3 },
+    }}
+  >
+    {/* Mobile Image */}
+    <Image
+      src="/small (2).webp"
+      alt="Payment image"
+      width={350}
+      height={220}
+      className="object-contain drop-shadow-lg"
+    />
+    {/* Speaker */}
+    <div className="absolute top-3 left-1/2 -translate-x-1/2 w-12 h-[4px] bg-black rounded-full"></div>
 
-            {/* RIGHT IMAGES — DESKTOP ONLY */}
-            <motion.div
-              className="hidden lg:flex mt-44 justify-end items-end gap-6"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true, amount: 0.3 }}
-            >
-              
-              {/* Image 1 */}
-              <motion.div
-                className="w-[350px]"
-                variants={imageVariants}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                whileHover={{
-                  scale: 1.08,
-                  rotate: -5,
-                  transition: { duration: 0.3 },
-                }}
-              >
-             
-                  <Image
-                    src="/small (2).webp"
-                    alt="Payment image"
-                    width={350}
-                    height={220}
-                    className="object-contain drop-shadow-lg"
-                  />
-         
-              </motion.div>
+           <Image width={8} height={20} className="absolute  top-24 -left-1 w-[5px] h-[20px] rounded-xl" src="/image.png" alt="Power Button" />
+           <Image width={8} height={20} className="absolute  top-36 -left-1 w-[5px] h-[30px]" src="/image.png" alt="Power Button" />
+<Image width={8} height={2} className="absolute  top-44 -left-1 w-[5px] h-[30px]" src="/image.png" alt="Speaker Button" />
+ <Image width={8} height={20} className="absolute  top-40 -right-1 w-[5px] h-[40px]" src="/image.png" alt="Power Button" />
+       {/* <div className="absolute top-32 -left-1 w-[4px] h-[65px] bg-black rounded-full"></div>
+    <div className="absolute top-52 -left-1 w-[4px] h-[60px] bg-black rounded-full"></div> */}
+          {/* <div className="absolute top-40 -right-1 w-[5px] h-[50px] bg-black rounded-full"></div> */}
+  </motion.div>
 
-              {/* Image 2 */}
-              <motion.div
-                className="w-[350px]"
-                variants={imageVariants}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                transition={{ delay: 0.2 }}
-                whileHover={{
-                  scale: 1.08,
-                  rotate: 5,
-                  transition: { duration: 0.3 },
-                }}
-              >
-           
-                  <Image
-                    src="/small (1).webp"
-                    alt="Donation image"
-                    width={350}
-                    height={224}
-                    className="object-contain drop-shadow-lg"
-                  />
-       
-              </motion.div>
+  {/* IMAGE 2 */}
+  <motion.div
+    className="w-[350px] relative"
+    variants={imageVariants}
+    initial="hidden"
+    whileInView="visible"
+    viewport={{ once: true }}
+    transition={{ delay: 0.2 }}
+    whileHover={{
+      scale: 1.08,
+      rotate: 5,
+      transition: { duration: 0.3 },
+    }}
+  >
+    {/* Mobile Image */}
+    <Image
+      src="/small (1).webp"
+      alt="Donation image"
+      width={350}
+      height={224}
+      className="object-contain drop-shadow-lg"
+    />
 
-            </motion.div>
+    {/* Speaker */}
+    <div className="absolute top-3 left-1/2 -translate-x-1/2 w-12 h-[4px] bg-black rounded-full"></div>
+<Image width={8} height={20} className="absolute  top-24 -left-1 w-[5px] h-[20px] rounded-xl" src="/image.png" alt="Power Button" />
+           <Image width={8} height={20} className="absolute  top-36 -left-1 w-[5px] h-[30px]" src="/image.png" alt="Power Button" />
+<Image width={8} height={2} className="absolute  top-44 -left-1 w-[5px] h-[30px]" src="/image.png" alt="Speaker Button" />
+ <Image width={8} height={20} className="absolute  top-40 -right-1 w-[5px] h-[40px]" src="/image.png" alt="Power Button" />
+
+  </motion.div>
+</motion.div>
+
 
           </div>
         </motion.div>

@@ -92,6 +92,22 @@ export const Appkeyfeatures = () => {
     },
   }
 
+   // Volume button floating animation
+  const volumeButtonVariants = {
+    animate: {
+      y: [0, -5, 0],
+      transition: { duration: 3, repeat: Infinity, ease: "easeInOut" },
+    },
+  };
+
+  // Power button floating animation
+  const powerButtonVariants = {
+    animate: {
+      y: [0, 5, 0],
+      transition: { duration: 3.2, repeat: Infinity, ease: "easeInOut" },
+    },
+  };
+
   return (
     <section className="min-h-[100vh] lg:min-h-[50vh] max-w-7xl mx-auto px-6 py-12 lg:py-24 overflow-hidden">
       
@@ -148,6 +164,9 @@ export const Appkeyfeatures = () => {
                               height={14}
                               className="absolute bg-black rounded-full top-2 left-1/2 -translate-x-1/2 z-20"
                             />
+                             <div className="absolute top-28 -left-[2px] w-[4px] h-[65px] bg-black rounded-full"></div>
+    <div className="absolute top-48 -left-[2px] w-[4px] h-[60px] bg-black rounded-full"></div>
+          <div className="absolute top-40 -right-[3px] w-[5px] h-[50px] bg-black rounded-full"></div>
             </motion.div>
           </motion.div>
 
@@ -173,7 +192,7 @@ export const Appkeyfeatures = () => {
                 src="/Mobile2.webp"
                 alt="Mobile view"
                 fill
-                className="object-cover p-0.5 rounded-2xl"
+                className="object-cover p-[2px] rounded-2xl"
               />
    <Image
                               src="/Oval.webp"
@@ -182,7 +201,10 @@ export const Appkeyfeatures = () => {
                               height={14}
                               className="absolute bg-black rounded-full top-2 left-1/2 -translate-x-1/2 z-20"
                             />
-             
+                              <div className="absolute top-28 -left-[2px] w-[4px] h-[65px] bg-black rounded-full"></div>
+    <div className="absolute top-48 -left-[2px] w-[4px] h-[60px] bg-black rounded-full"></div>
+          <div className="absolute top-40 -right-[3px] w-[5px] h-[50px] bg-black rounded-full"></div>
+                            
             </motion.div>
           </motion.div>
 
