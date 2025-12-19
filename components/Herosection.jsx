@@ -157,7 +157,7 @@ export const Herosection = () => {
             variants={imageVariants}
             initial="hidden"
             animate="visible"
-            className="relative mt-20 w-full h-[350px] sm:h-[450px] lg:h-[700px] hidden sm:flex items-center justify-center"
+            className="relative mt-20 w-full h-[350px] sm:h-[450px] lg:h-[600px] hidden sm:flex items-center justify-center"
             aria-label="MyBindle app preview on mobile device"
           >
             {/* Main Phone Device */}
